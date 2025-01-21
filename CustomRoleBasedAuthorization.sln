@@ -10,6 +10,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomRoleBasedAuthorization.Database", "CustomRoleBasedAuthorization.Database\CustomRoleBasedAuthorization.Database.csproj", "{0C36488B-3EC9-4BE7-9F29-653A929BA7EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomRoleBasedAuthorization.Domain", "CustomRoleBasedAuthorization.Domain\CustomRoleBasedAuthorization.Domain.csproj", "{C298BDFA-9406-4E58-B0AB-67341AE08468}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +24,14 @@ Global
 		{B9C79A38-D184-4645-9449-288F3527A150}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9C79A38-D184-4645-9449-288F3527A150}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9C79A38-D184-4645-9449-288F3527A150}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C36488B-3EC9-4BE7-9F29-653A929BA7EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C36488B-3EC9-4BE7-9F29-653A929BA7EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C36488B-3EC9-4BE7-9F29-653A929BA7EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C36488B-3EC9-4BE7-9F29-653A929BA7EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C298BDFA-9406-4E58-B0AB-67341AE08468}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C298BDFA-9406-4E58-B0AB-67341AE08468}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C298BDFA-9406-4E58-B0AB-67341AE08468}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C298BDFA-9406-4E58-B0AB-67341AE08468}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
