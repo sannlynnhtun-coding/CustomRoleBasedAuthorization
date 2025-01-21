@@ -10,4 +10,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CustomRoleBasedAuthorization.Database\CustomRoleBasedAuthorization.Database.csproj" />
+    <ProjectReference Include="..\CustomRoleBasedAuthorization.Domain\CustomRoleBasedAuthorization.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
