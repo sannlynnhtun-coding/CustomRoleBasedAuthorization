@@ -1,1 +1,1 @@
-dotnet ef dbcontext scaffold "Server=.;Database=CustomRoleBasedAuthorization;User Id=sa;Password=sasa@123;" Microsoft.EntityFrameworkCore.SqlServer --output-dir Models --context-dir Data --context ApplicationDbContext
+dotnet ef dbcontext scaffold "Server=.;Database=CustomRoleBasedAuthorization;User Id=sa;Password=sasa@123;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer --output-dir Models --context-dir Data --context ApplicationDbContext
